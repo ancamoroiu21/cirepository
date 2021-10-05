@@ -1,7 +1,6 @@
 name: Testing onmergerequest event
 
-on:
-  pull_request:
+on: [merge, pull_request]
 
 jobs: 
   container-job:
